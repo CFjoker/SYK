@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孙宇鲲的宇宙门户</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 内联图标样式 */
+        .weather-icon-img {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0iI2ZmYWIwMCI+PHBhdGggZD0iTTMyIDEwYTEyIDEyIDAgMSAwIDAgMjQgMTIgMTIgMCAxIDAgMC0yNHptMCAxOGE2IDYgMCAxIDEgMC0xMiA2IDYgMCAwIDEgMCAxMnoiLz48cGF0aCBkPSJNMzIgN2ExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDItMHY0YTEgMSAwIDAgMS0xIDF6Ii8+PHBhdGggZD0iTTMyIDU3YTEgMSAwIDAgMS0xLTF2LTRhMSAxIDAgMCAxIDItMHY0YTEgMSAwIDAgMS0xIDF6Ii8+PHBhdGggZD0iTTU3IDMzaC00YTEgMSAwIDAgMS0wLTJoNGExIDEgMCAwIDEgMCAyeiIvPjxwYXRoIGQ9Ik0xMSAzM0g3YTEgMSAwIDAgMS0wLTJoNGExIDEgMCAxIDEgMCAyeiIvPjxwYXRoIGQ9Ik00OC4zNiAxNy42NGExIDEgMCAwIDEtLjcxLTEuNzFsMi44My0yLjgzYTEgMSAwIDAgMSAxLjQxIDEuNDFsLTIuODMgMi44M2ExIDEgMCAwIDEtLjcuM3oiLz48cGF0aCBkPSJNMTIuODMgNTMuMTdhMSAxIDAgMCAxLS43LS4zbC0yLjgzLTIuODNhMSAxIDAgMCAxIDEuNDEtMS40MWwyLjgzIDIuODNhMSAxIDAgMCAxLS43MSAxLjcxeiIvPjxwYXRoIGQ9Ik01MS4xNyA1My4xN2ExIDEgMCAwIDEtLjcxLTEuNzFsMi44My0yLjgzYTEgMSAwIDAgMSAxLjQxIDEuNDFsLTIuODMgMi44M2ExIDEgMCAwIDEtLjcuM3oiLz48cGF0aCBkPSJNMTUuNjQgMTcuNjRhMSAxIDAgMCAxLS43LS4zbC0yLjgzLTIuODNhMSAxIDAgMCAxIDEuNDEtMS40MWwyLjgzIDIuODNhMSAxIDAgMCAxLS43MSAxLjcxeiIvPjwvc3ZnPg==');
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .buttons-icon-img {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0iI2ZmNTc3ZiI+PHBhdGggZD0iTTI2IDEwSDEwYy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjEyYzAtMS4xLS45LTItMi0yem0wIDMySDEwYy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjQ0YzAtMS4xLS45LTItMi0yem0zMi0zMkg0MmMtMS4xIDAtMiAuOS0yIDJ2MTZjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlYxMmMwLTEuMS0uOS0yLTItMnptMCAzMkg0MmMtMS4xIDAtMiAuOS0yIDJ2MTZjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY0NGMwLTEuMS0uOS0yLTItMnoiLz48L3N2Zz4=');
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .maze-icon-img {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0iIzRlOTBmZSI+PHBhdGggZD0iTTYwIDRINGMtMS4xIDAtMiAuOS0yIDJ2NTJjMCAxLjEuOSAyIDIgMmg1NmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0tMiA1MUg2VjdoNTJ2NDh6Ii8+PHBhdGggZD0iTTEyIDE2aDh2OGgtOHptOCAwaDh2OGgtOHptOCAwaDh2OGgtOHptOCAwaDh2OGgtOHptOCA4aDh2OGgtOHptLTMyIDE2aDh2OGgtOHptOCAwaDh2OGgtOHptOCAwaDh2OGgtOHptOC0xNmg4djhoLTh6bS04IDBoOHY4aC04em0tOCAwaDh2OGgtOHptLTE2IDBoOHY4aC04em04IDhoOHY4aC04em0xNiA4aDh2OGgtOHptOC04aDh2OGgtOHoiLz48L3N2Zz4=');
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 登陆页面 -->
+    <div id="login-screen" class="fullscreen-container">
+        <div class="login-content">
+            <h1>正在唤醒孙宇鲲的宇宙门户...</h1>
+            <div class="login-form">
+                <input type="text" id="username-input" placeholder="请输入用户名" autocomplete="off">
+                <button id="login-button">进入</button>
+            </div>
+            <p id="login-error" class="hidden">拒绝访问。这个网站只为孙宇鲲设计。</p>
+        </div>
+    </div>
+
+    <!-- 主桌面 -->
+    <div id="desktop" class="fullscreen-container hidden">
+        <!-- 天气助手应用 -->
+        <div id="weather-app" class="app-window">
+            <div class="window-header">
+                <div class="window-controls">
+                    <span class="window-control close"></span>
+                    <span class="window-control minimize"></span>
+                    <span class="window-control maximize"></span>
+                </div>
+                <div class="window-title">天气助手</div>
+            </div>
+            <div class="window-content">
+                <div class="weather-container">
+                    <div class="weather-icon">☀️</div>
+                    <div class="weather-info">
+                        <h2>今日悉尼天气</h2>
+                        <p id="weather-description">正在获取天气信息...</p>
+                        <p id="weather-temperature"></p>
+                        <p id="weather-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 按钮房间应用 -->
+        <div id="buttons-app" class="app-window hidden">
+            <div class="window-header">
+                <div class="window-controls">
+                    <span class="window-control close"></span>
+                    <span class="window-control minimize"></span>
+                    <span class="window-control maximize"></span>
+                </div>
+                <div class="window-title">按钮房间</div>
+            </div>
+            <div class="window-content">
+                <div class="buttons-container">
+                    <button id="cool-button" class="fun-button">我很酷</button>
+                    <button id="love-button" class="fun-button">想柴菲</button>
+                    <button id="emo-button" class="fun-button">有点emo</button>
+                    <button id="surprise-button" class="fun-button">?</button>
+                </div>
+                <div id="button-effect-area"></div>
+            </div>
+        </div>
+
+        <!-- 迷宫游戏应用 -->
+        <div id="maze-app" class="app-window hidden">
+            <div class="window-header">
+                <div class="window-controls">
+                    <span class="window-control close"></span>
+                    <span class="window-control minimize"></span>
+                    <span class="window-control maximize"></span>
+                </div>
+                <div class="window-title">迷宫游戏</div>
+            </div>
+            <div class="window-content">
+                <div class="maze-container">
+                    <div id="maze-game"></div>
+                    <p class="maze-instructions">使用方向键或WASD移动</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 迷宫胜利弹窗 -->
+        <div id="maze-win-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>🎉 恭喜！</h2>
+                <p>你已到达孙宇鲲宇宙的中心！</p>
+                <div id="win-gif"></div>
+                <button id="close-win-modal">关闭</button>
+            </div>
+        </div>
+
+        <!-- 底部应用栏 -->
+        <div class="dock">
+            <div class="dock-item" data-app="weather">
+                <div class="weather-icon-img"></div>
+            </div>
+            <div class="dock-item" data-app="buttons">
+                <div class="buttons-icon-img"></div>
+            </div>
+            <div class="dock-item" data-app="maze">
+                <div class="maze-icon-img"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
